@@ -9,7 +9,7 @@ int main()
 	cout << "Введите размерность массива:" << endl;
 	int a;
 	cin >> a;
-	while (a < 0) { 
+	while (a < 1) { 
 		cout << "Ошибка. Должен быть больше 0."<<endl;
 		cin >> a;
 	}
